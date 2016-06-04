@@ -24,6 +24,9 @@ before_script:
             "vendor-dir": "Packages/Libraries",
             "bin-dir": "bin"
         },
+        "repositories":[
+            { "type":"vcs", "url":"https://github.com/skurfuerst/Flowpack.ElasticSearch.git" }
+        ],
         "require": {
             "flowpack/elasticsearch": "${VERSION}"
         },
