@@ -37,7 +37,6 @@ before_script:
             "post-install-cmd": "TYPO3\\\\Flow\\\\Composer\\\\InstallerScripts::postUpdateAndInstall"
         }
     }
-    EOF
   # Install Flow in different versions
   - composer require typo3/flow:${FLOW_VERSION} --no-update
   - composer update --dev
